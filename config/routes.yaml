@@ -1,0 +1,10 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+# the "app_lucky_number" route name is not important yet
+# app_vat_calculator:
+#     path: /vatcalculator
+#     controller: App\Controller\VatCalculatorController::displayVatCalculator
