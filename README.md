@@ -10,8 +10,13 @@
 •	Basic PHP knowledge <br>
 •	Low level HTML & CSS knowledge <br>
 •	Object-Oriented Programming <br>
+•	Please run composer update for the first time in order to download required dependencies related to Symfony
 
 ## Vat Calculator Overview
+
+If you access url like this http://localhost/vat_calculator_demo/public/vatcalculator then you will be able to see the Vat Calculator page.
+
+If you access url like this http://localhost/vat_calculator_demo/public/vatcalculationhistory then Vat Calculation History page will appear.
 
 ## 1. Vat Calculator page
 
@@ -70,11 +75,9 @@ migrations/Version20230527171628.php
 
 Please find the below routes which are added new related to Vat Calculator
 Vat Calculation History listing page
+
 #[Route('/vatcalculationhistory', name: 'vatcalculationhistory')]
 
 Vat Calculator page
+
 #[Route('/vatcalculator', name: 'vatcalculator')]
-
-If you access url like this http://localhost/vat_calculator_demo/public/vatcalculator then you will be able to see the Vat Calculator page.
-
-If you access url like this http://localhost/vat_calculator_demo/public/vatcalculationhistory then Vat Calculation History page will appear.
